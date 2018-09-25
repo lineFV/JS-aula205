@@ -1,8 +1,11 @@
 let escadinha=prompt("Quantas escadinhas vc quer?");
-let 
-let i=0;
+let re =prompt("Qual simbolo vc quer?");
+let i=1;
+let degrau = re;
 
 while(i<=escadinha){
- console.log("#");
+ console.log(degrau);
+ degrau=degrau + re; 
  i++;
+
 }
